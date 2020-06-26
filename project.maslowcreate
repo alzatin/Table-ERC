@@ -7,6 +7,54 @@
     "topLevel": true,
     "allAtoms": [
         {
+            "atomType": "GitHubMolecule",
+            "name": "rounded corner rectangle",
+            "x": 0.2046678635547576,
+            "y": 0.36151603498542273,
+            "uniqueID": 744415,
+            "projectID": "274258140",
+            "ioValues": [
+                {
+                    "name": "corner radius",
+                    "ioValue": 15
+                },
+                {
+                    "name": "Rectangle height",
+                    "ioValue": 20
+                },
+                {
+                    "name": "Rectangle width",
+                    "ioValue": 45
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.417115499700778,
+            "y": 0.4169096209912536,
+            "uniqueID": 707511,
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 1
+                }
+            ]
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.6295631358467983,
+            "y": 0.5714285714285714,
+            "uniqueID": 546649,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9880311190903651,
@@ -14,7 +62,22 @@
             "ioValues": []
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 744415,
+            "ap2ID": 707511
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 707511,
+            "ap2ID": 546649
+        }
+    ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
     "circleSegmentSize": "1"
