@@ -58,7 +58,7 @@
             "ioValues": [
                 {
                     "name": "undercarriage width",
-                    "ioValue": 10
+                    "ioValue": 20
                 }
             ],
             "topLevel": false,
@@ -66,8 +66,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Side anchor pieceÂ ",
-                    "x": 0.19573495811119576,
-                    "y": 0.29737609329446063,
+                    "x": 0.19878141660319879,
+                    "y": 0.30903790087463556,
                     "uniqueID": 568973,
                     "ioValues": [
                         {
@@ -186,8 +186,8 @@
                         {
                             "atomType": "Rotate",
                             "name": "Rotate",
-                            "x": 0.5422696115765423,
-                            "y": 0.15160349854227406,
+                            "x": 0.53998476770754,
+                            "y": 0.13411078717201166,
                             "uniqueID": 352530,
                             "ioValues": [
                                 {
@@ -225,8 +225,8 @@
                         {
                             "atomType": "Translate",
                             "name": "Translate",
-                            "x": 0.46839299314546845,
-                            "y": 0.4635568513119533,
+                            "x": 0.4805788271134806,
+                            "y": 0.44897959183673475,
                             "uniqueID": 938678,
                             "ioValues": [
                                 {
@@ -246,8 +246,8 @@
                         {
                             "atomType": "Equation",
                             "name": "Equation",
-                            "x": 0.3625285605483625,
-                            "y": 0.5685131195335277,
+                            "x": 0.3549124143183549,
+                            "y": 0.5830903790087463,
                             "uniqueID": 465880,
                             "ioValues": [
                                 {
@@ -260,8 +260,8 @@
                         {
                             "atomType": "Rotate",
                             "name": "Rotate",
-                            "x": 0.5917745620715917,
-                            "y": 0.44897959183673475,
+                            "x": 0.5925361766945926,
+                            "y": 0.4314868804664723,
                             "uniqueID": 539117,
                             "ioValues": [
                                 {
@@ -309,10 +309,17 @@
                             ]
                         },
                         {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.9847677075399847,
+                            "y": 0.5,
+                            "ioValues": []
+                        },
+                        {
                             "atomType": "Assembly",
                             "name": "Assembly",
-                            "x": 0.8111195734958111,
-                            "y": 0.6822157434402333,
+                            "x": 0.8126428027418127,
+                            "y": 0.7667638483965015,
                             "uniqueID": 398474,
                             "ioValues": [
                                 {
@@ -328,13 +335,6 @@
                                     "ioValue": 10
                                 }
                             ]
-                        },
-                        {
-                            "atomType": "Output",
-                            "name": "Output",
-                            "x": 0.9847677075399847,
-                            "y": 0.5,
-                            "ioValues": []
                         }
                     ],
                     "allConnectors": [
@@ -467,18 +467,39 @@
                     "fileTypeVersion": 1
                 },
                 {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.38080731150038083,
+                    "y": 0.1282798833819242,
+                    "uniqueID": 429861,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
                     "atomType": "Input",
                     "name": "undercarriage width",
                     "x": 0.013333333333333334,
-                    "y": 0.47521865889212833,
+                    "y": 0.4431486880466472,
                     "uniqueID": 643625,
                     "ioValues": []
                 },
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Molecule",
-                    "x": 0.2048743335872049,
-                    "y": 0.5889212827988338,
+                    "x": 0.20335110434120335,
+                    "y": 0.5976676384839651,
                     "uniqueID": 841558,
                     "projectID": "275064254",
                     "ioValues": [
@@ -501,6 +522,23 @@
                     ]
                 },
                 {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.5498857578065499,
+                    "y": 0.3323615160349854,
+                    "uniqueID": 487555,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9847677075399847,
@@ -508,7 +546,36 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 568973,
+                    "ap2ID": 429861
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 568973,
+                    "ap2ID": 487555
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 429861,
+                    "ap2ID": 487555
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Undercarriage width",
+                    "ap2Primary": false,
+                    "ap1ID": 643625,
+                    "ap2ID": 568973
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
