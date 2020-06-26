@@ -42,23 +42,49 @@
             ]
         },
         {
+            "atomType": "CutList",
+            "name": "Add To Cutlist",
+            "x": 0.48286367098248284,
+            "y": 0.23906705539358603,
+            "uniqueID": 383511,
+            "ioValues": []
+        },
+        {
             "atomType": "Molecule",
             "name": "Undercarriage",
-            "x": 0.1507996953541508,
-            "y": 0.48688046647230326,
+            "x": 0.17745620715917745,
+            "y": 0.6005830903790088,
             "uniqueID": 673023,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "undercarriage width",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
                 {
                     "atomType": "Molecule",
-                    "name": "Side anchor piece ",
-                    "x": 0.19345011424219347,
-                    "y": 0.3032069970845481,
+                    "name": "Side anchor pieceÂ ",
+                    "x": 0.19573495811119576,
+                    "y": 0.29737609329446063,
                     "uniqueID": 568973,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "Undercarriage width",
+                            "ioValue": 10
+                        }
+                    ],
                     "topLevel": false,
                     "allAtoms": [
+                        {
+                            "atomType": "Input",
+                            "name": "Undercarriage width",
+                            "x": 0.013333333333333334,
+                            "y": 0.41982507288629733,
+                            "uniqueID": 655997,
+                            "ioValues": []
+                        },
                         {
                             "atomType": "Translate",
                             "name": "Translate",
@@ -317,10 +343,18 @@
                     "fileTypeVersion": 1
                 },
                 {
+                    "atomType": "Input",
+                    "name": "undercarriage width",
+                    "x": 0.013333333333333334,
+                    "y": 0.47521865889212833,
+                    "uniqueID": 643625,
+                    "ioValues": []
+                },
+                {
                     "atomType": "GitHubMolecule",
                     "name": "Molecule",
-                    "x": 0.1408987052551409,
-                    "y": 0.629737609329446,
+                    "x": 0.2048743335872049,
+                    "y": 0.5889212827988338,
                     "uniqueID": 841558,
                     "projectID": "275064254",
                     "ioValues": [
@@ -352,14 +386,6 @@
             ],
             "allConnectors": [],
             "fileTypeVersion": 1
-        },
-        {
-            "atomType": "CutList",
-            "name": "Add To Cutlist",
-            "x": 0.48286367098248284,
-            "y": 0.23906705539358603,
-            "uniqueID": 383511,
-            "ioValues": []
         },
         {
             "atomType": "Assembly",
