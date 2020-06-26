@@ -51,10 +51,226 @@
             "topLevel": false,
             "allAtoms": [
                 {
+                    "atomType": "Molecule",
+                    "name": "Side anchor piece ",
+                    "x": 0.19345011424219347,
+                    "y": 0.3032069970845481,
+                    "uniqueID": 568973,
+                    "ioValues": [],
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Rotate",
+                            "name": "Rotate",
+                            "x": 0.35795887281035793,
+                            "y": 0.4169096209912536,
+                            "uniqueID": 124592,
+                            "ioValues": [
+                                {
+                                    "name": "x-axis degrees",
+                                    "ioValue": 90
+                                },
+                                {
+                                    "name": "y-axis degrees",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "z-axis degrees",
+                                    "ioValue": 90
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Translate",
+                            "name": "Translate",
+                            "x": 0.4523990860624524,
+                            "y": 0.314868804664723,
+                            "uniqueID": 938678,
+                            "ioValues": [
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 5.88
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": -0.01
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "GitHubMolecule",
+                            "name": "Molecule",
+                            "x": 0.2315308453922315,
+                            "y": 0.5364431486880467,
+                            "uniqueID": 973286,
+                            "projectID": "275064254",
+                            "ioValues": [
+                                {
+                                    "name": "Leg Length",
+                                    "ioValue": 2
+                                },
+                                {
+                                    "name": "Taper",
+                                    "ioValue": 0.5
+                                },
+                                {
+                                    "name": "Legx",
+                                    "ioValue": 2
+                                },
+                                {
+                                    "name": "LegY",
+                                    "ioValue": 0.75
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Rotate",
+                            "name": "Rotate",
+                            "x": 0.5437928408225439,
+                            "y": 0.3002915451895044,
+                            "uniqueID": 539117,
+                            "ioValues": [
+                                {
+                                    "name": "x-axis degrees",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "y-axis degrees",
+                                    "ioValue": -4.5
+                                },
+                                {
+                                    "name": "z-axis degrees",
+                                    "ioValue": 0
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Rectangle",
+                            "name": "Rectangle",
+                            "x": 0.1721249047981721,
+                            "y": 0.717201166180758,
+                            "uniqueID": 195412,
+                            "ioValues": [
+                                {
+                                    "name": "x length",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "y length",
+                                    "ioValue": 2
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Extrude",
+                            "name": "Extrude",
+                            "x": 0.32977913175932977,
+                            "y": 0.6880466472303207,
+                            "uniqueID": 191611,
+                            "ioValues": [
+                                {
+                                    "name": "height",
+                                    "ioValue": 0.75
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "ShrinkWrap",
+                            "name": "Shrink Wrap",
+                            "x": 0.597105864432597,
+                            "y": 0.6005830903790088,
+                            "uniqueID": 811376,
+                            "ioValues": [
+                                {
+                                    "name": "3D shape 3",
+                                    "ioValue": ""
+                                },
+                                {
+                                    "name": "3D shape 1",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "3D shape 2",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "3D shape 3",
+                                    "ioValue": 10
+                                }
+                            ],
+                            "closedSelection": 0
+                        },
+                        {
+                            "atomType": "Assembly",
+                            "name": "Assembly",
+                            "x": 0.6755521706016756,
+                            "y": 0.629737609329446,
+                            "uniqueID": 398474,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.9847677075399847,
+                            "y": 0.5,
+                            "ioValues": []
+                        }
+                    ],
+                    "allConnectors": [
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 124592,
+                            "ap2ID": 938678
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 938678,
+                            "ap2ID": 539117
+                        },
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 973286,
+                            "ap2ID": 124592
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "3D shape 1",
+                            "ap2Primary": false,
+                            "ap1ID": 539117,
+                            "ap2ID": 811376
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 195412,
+                            "ap2ID": 191611
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "3D shape 2",
+                            "ap2Primary": false,
+                            "ap1ID": 191611,
+                            "ap2ID": 811376
+                        }
+                    ],
+                    "fileTypeVersion": 1
+                },
+                {
                     "atomType": "GitHubMolecule",
                     "name": "Molecule",
-                    "x": 0.1568926123381569,
-                    "y": 0.4081632653061224,
+                    "x": 0.14242193450114243,
+                    "y": 0.6268221574344023,
                     "uniqueID": 841558,
                     "projectID": "275064254",
                     "ioValues": [
