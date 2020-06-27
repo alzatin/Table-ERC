@@ -132,7 +132,7 @@
             "allAtoms": [
                 {
                     "atomType": "Molecule",
-                    "name": "Side anchor pieceÃÂÃÂ ",
+                    "name": "Side anchor pieceÃÂÃÂÃÂÃÂ ",
                     "x": 0.130997715156131,
                     "y": 0.17784256559766762,
                     "uniqueID": 568973,
@@ -1919,8 +1919,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.7562833206397562,
-            "y": 0.6122448979591837,
+            "x": 0.760622381807301,
+            "y": 0.6268221574344023,
             "uniqueID": 546649,
             "ioValues": [
                 {
