@@ -52,8 +52,8 @@
         {
             "atomType": "Molecule",
             "name": "Undercarriage",
-            "x": 0.17745620715917745,
-            "y": 0.6005830903790088,
+            "x": 0.17821782178217824,
+            "y": 0.5714285714285714,
             "uniqueID": 673023,
             "ioValues": [
                 {
@@ -69,7 +69,7 @@
             "allAtoms": [
                 {
                     "atomType": "Molecule",
-                    "name": "Side anchor pieceÃÂÃÂÃÂÃÂ ",
+                    "name": "Side anchor pieceÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ ",
                     "x": 0.19345011424219347,
                     "y": 0.30612244897959184,
                     "uniqueID": 568973,
@@ -473,7 +473,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "horizontal long brace",
-                    "x": 0.33206397562833206,
+                    "x": 0.33587204874333587,
                     "y": 0.18950437317784258,
                     "uniqueID": 742631,
                     "ioValues": [
@@ -499,9 +499,9 @@
                         {
                             "atomType": "GitHubMolecule",
                             "name": "Extrude Arc",
-                            "x": 0.2025894897182026,
-                            "y": 0.33527696793002915,
-                            "uniqueID": 535640,
+                            "x": 0.27570449352627574,
+                            "y": 0.3527696793002915,
+                            "uniqueID": 882747,
                             "projectID": "275018479",
                             "ioValues": [
                                 {
@@ -510,15 +510,15 @@
                                 },
                                 {
                                     "name": "Piece Width",
-                                    "ioValue": 10
+                                    "ioValue": 1
                                 },
                                 {
                                     "name": "width",
-                                    "ioValue": 10000
+                                    "ioValue": 300
                                 },
                                 {
                                     "name": "Arc",
-                                    "ioValue": 100
+                                    "ioValue": 20
                                 }
                             ]
                         },
@@ -529,6 +529,10 @@
                             "y": 0.2857142857142857,
                             "uniqueID": 887609,
                             "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": ""
+                                },
                                 {
                                     "name": "xDist",
                                     "ioValue": -5000
@@ -546,8 +550,8 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.22696115765422695,
-                            "y": 0.6472303206997084,
+                            "x": 0.21096725057121096,
+                            "y": 0.6005830903790088,
                             "uniqueID": 156776,
                             "ioValues": [
                                 {
@@ -568,15 +572,15 @@
                                     "ioValue": ""
                                 },
                                 {
+                                    "name": "3D shape 4",
+                                    "ioValue": 10
+                                },
+                                {
                                     "name": "3D shape 1",
                                     "ioValue": 10
                                 },
                                 {
                                     "name": "3D shape 3",
-                                    "ioValue": 10
-                                },
-                                {
-                                    "name": "3D shape 4",
                                     "ioValue": 10
                                 }
                             ],
@@ -637,13 +641,6 @@
                         }
                     ],
                     "allConnectors": [
-                        {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 535640,
-                            "ap2ID": 887609
-                        },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "3D shape 1",
