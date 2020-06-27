@@ -52,8 +52,8 @@
         {
             "atomType": "Molecule",
             "name": "Undercarriage",
-            "x": 0.1744097486671744,
-            "y": 0.5218658892128281,
+            "x": 0.17136329017517135,
+            "y": 0.5393586005830904,
             "uniqueID": 673023,
             "ioValues": [
                 {
@@ -68,8 +68,26 @@
             "topLevel": false,
             "allAtoms": [
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 0.26123381568926124,
+                    "y": 0.13119533527696794,
+                    "uniqueID": 895365,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 40
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 1
+                        }
+                    ],
+                    "currentEquation": "x - y"
+                },
+                {
                     "atomType": "Molecule",
-                    "name": "Side anchor piece ",
+                    "name": "Side anchor pieceÂ ",
                     "x": 0.15993907083015993,
                     "y": 0.27113702623906705,
                     "uniqueID": 568973,
@@ -471,10 +489,18 @@
                     "fileTypeVersion": 1
                 },
                 {
+                    "atomType": "Input",
+                    "name": "undercarriage width",
+                    "x": 0.013333333333333334,
+                    "y": 0.3877551020408163,
+                    "uniqueID": 643625,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Molecule",
                     "name": "horizontal long brace",
-                    "x": 0.31683168316831684,
-                    "y": 0.18950437317784258,
+                    "x": 0.3549124143183549,
+                    "y": 0.1924198250728863,
                     "uniqueID": 742631,
                     "ioValues": [
                         {
@@ -482,12 +508,12 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "undercarriage length",
-                            "ioValue": 40
-                        },
-                        {
                             "name": "thickness",
                             "ioValue": 0.75
+                        },
+                        {
+                            "name": "undercarriage length",
+                            "ioValue": 10
                         }
                     ],
                     "topLevel": false,
@@ -530,7 +556,7 @@
                             "ioValues": [
                                 {
                                     "name": "x",
-                                    "ioValue": 40
+                                    "ioValue": 10
                                 }
                             ],
                             "currentEquation": "x*6"
@@ -553,7 +579,7 @@
                                 },
                                 {
                                     "name": "width",
-                                    "ioValue": 240
+                                    "ioValue": 60
                                 },
                                 {
                                     "name": "Arc",
@@ -623,15 +649,15 @@
                                     "ioValue": ""
                                 },
                                 {
+                                    "name": "3D shape 4",
+                                    "ioValue": 10
+                                },
+                                {
                                     "name": "3D shape 2",
                                     "ioValue": 10
                                 },
                                 {
                                     "name": "3D shape 3",
-                                    "ioValue": 10
-                                },
-                                {
-                                    "name": "3D shape 4",
                                     "ioValue": 10
                                 }
                             ],
@@ -650,7 +676,7 @@
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 40
+                                    "ioValue": 10
                                 }
                             ]
                         },
@@ -763,14 +789,6 @@
                     "fileTypeVersion": 1
                 },
                 {
-                    "atomType": "Input",
-                    "name": "undercarriage width",
-                    "x": 0.013333333333333334,
-                    "y": 0.3877551020408163,
-                    "uniqueID": 643625,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Rotate",
                     "name": "Rotate",
                     "x": 0.4508758568164509,
@@ -795,7 +813,7 @@
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 0.3518659558263519,
-                    "y": 0.37609329446064144,
+                    "y": 0.4110787172011662,
                     "uniqueID": 429861,
                     "ioValues": [
                         {
@@ -829,8 +847,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Molecule",
-                    "x": 0.20563594821020562,
-                    "y": 0.6268221574344023,
+                    "x": 0.22391469916222392,
+                    "y": 0.5947521865889213,
                     "uniqueID": 841558,
                     "projectID": "275064254",
                     "ioValues": [
@@ -895,10 +913,18 @@
                     ]
                 },
                 {
+                    "atomType": "Input",
+                    "name": "undercarriage length",
+                    "x": 0.013333333333333334,
+                    "y": 0.7376093294460642,
+                    "uniqueID": 604187,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.4386900228484387,
-                    "y": 0.5889212827988338,
+                    "x": 0.43412033511043413,
+                    "y": 0.5976676384839651,
                     "uniqueID": 723865,
                     "ioValues": [
                         {
@@ -914,14 +940,6 @@
                             "ioValue": -13
                         }
                     ]
-                },
-                {
-                    "atomType": "Input",
-                    "name": "undercarriage length",
-                    "x": 0.013333333333333334,
-                    "y": 0.7376093294460642,
-                    "uniqueID": 604187,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Rotate",
@@ -977,8 +995,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.4691546077684691,
-                    "y": 0.7784256559766763,
+                    "x": 0.463061690784463,
+                    "y": 0.7813411078717201,
                     "uniqueID": 926399,
                     "ioValues": [
                         {
@@ -1033,8 +1051,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.9017517136329019,
-                    "y": 0.5102040816326531,
+                    "x": 0.9063214013709062,
+                    "y": 0.5131195335276968,
                     "uniqueID": 487555,
                     "ioValues": [
                         {
@@ -1138,13 +1156,6 @@
                     "ap2ID": 487555
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 742631,
-                    "ap2ID": 437333
-                },
-                {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Undercarriage width",
                     "ap2Primary": false,
@@ -1164,6 +1175,13 @@
                     "ap2Primary": false,
                     "ap1ID": 643625,
                     "ap2ID": 258114
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 742631,
+                    "ap2ID": 437333
                 },
                 {
                     "ap1Name": "geometry",
@@ -1208,13 +1226,6 @@
                     "ap2ID": 997360
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 723865,
-                    "ap2ID": 507856
-                },
-                {
                     "ap1Name": "number or geometry",
                     "ap2Name": "yDist",
                     "ap2Primary": false,
@@ -1230,10 +1241,17 @@
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "undercarriage length",
+                    "ap2Name": "x",
                     "ap2Primary": false,
                     "ap1ID": 604187,
-                    "ap2ID": 742631
+                    "ap2ID": 895365
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 723865,
+                    "ap2ID": 507856
                 },
                 {
                     "ap1Name": "geometry",
