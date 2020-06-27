@@ -1858,6 +1858,22 @@
             ]
         },
         {
+            "atomType": "Add BOM Tag",
+            "name": "Add BOM Tag",
+            "x": 0.7273419649657273,
+            "y": 0.2594752186588921,
+            "uniqueID": 416360,
+            "ioValues": [],
+            "BOMitem": {
+                "BOMitemName": "name",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com",
+                "totalNeeded": 1,
+                "radius": 0.015384615384615385
+            }
+        },
+        {
             "atomType": "Rotate",
             "name": "Rotate",
             "x": 0.3792840822543793,
