@@ -15,6 +15,10 @@
         {
             "name": "Table top thickness",
             "ioValue": 0.5
+        },
+        {
+            "name": "height",
+            "ioValue": 10
         }
     ],
     "topLevel": true,
@@ -79,10 +83,24 @@
             "ioValues": []
         },
         {
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.3648134044173648,
+            "y": 0.47813411078717205,
+            "uniqueID": 823109,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 40
+                }
+            ],
+            "currentEquation": "x *1.125"
+        },
+        {
             "atomType": "Molecule",
             "name": "Undercarriage",
-            "x": 0.17517136329017519,
-            "y": 0.6122448979591837,
+            "x": 0.17745620715917745,
+            "y": 0.6472303206997084,
             "uniqueID": 673023,
             "ioValues": [
                 {
@@ -1434,10 +1452,18 @@
             "fileTypeVersion": 1
         },
         {
+            "atomType": "Input",
+            "name": "height",
+            "x": 0.013333333333333334,
+            "y": 0.6938775510204082,
+            "uniqueID": 360445,
+            "ioValues": []
+        },
+        {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.4775323686214775,
-            "y": 0.577259475218659,
+            "x": 0.5133282559025133,
+            "y": 0.5714285714285714,
             "uniqueID": 221828,
             "ioValues": [
                 {
@@ -1499,7 +1525,7 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.6824067022086824,
+            "x": 0.6725057121096725,
             "y": 0.5889212827988338,
             "uniqueID": 546649,
             "ioValues": [
@@ -1512,6 +1538,20 @@
                     "ioValue": 10
                 }
             ]
+        },
+        {
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.46382330540746386,
+            "y": 0.8425655976676385,
+            "uniqueID": 342880,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 20
+                }
+            ],
+            "currentEquation": "x *0.75"
         },
         {
             "atomType": "Output",
@@ -1565,6 +1605,20 @@
             "ap2ID": 673023
         },
         {
+            "ap1Name": "number or geometry",
+            "ap2Name": "x",
+            "ap2Primary": false,
+            "ap1ID": 170097,
+            "ap2ID": 823109
+        },
+        {
+            "ap1Name": "result",
+            "ap2Name": "xDist",
+            "ap2Primary": false,
+            "ap1ID": 823109,
+            "ap2ID": 221828
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
@@ -1593,11 +1647,31 @@
             "ap2ID": 744415
         },
         {
+            "ap1Name": "number or geometry",
+            "ap2Name": "x",
+            "ap2Primary": false,
+            "ap1ID": 477694,
+            "ap2ID": 342880
+        },
+        {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": false,
             "ap1ID": 546649,
             "ap2ID": 516958
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 546649
+        },
+        {
+            "ap1Name": "result",
+            "ap2Name": "yDist",
+            "ap2Primary": false,
+            "ap1ID": 342880,
+            "ap2ID": 221828
         }
     ],
     "fileTypeVersion": 1,
