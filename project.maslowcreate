@@ -52,8 +52,8 @@
         {
             "atomType": "Molecule",
             "name": "Undercarriage",
-            "x": 0.17821782178217824,
-            "y": 0.5714285714285714,
+            "x": 0.17593297791317594,
+            "y": 0.5510204081632653,
             "uniqueID": 673023,
             "ioValues": [
                 {
@@ -69,7 +69,7 @@
             "allAtoms": [
                 {
                     "atomType": "Molecule",
-                    "name": "Side anchor pieceÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ ",
+                    "name": "Side anchor pieceÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ ",
                     "x": 0.19345011424219347,
                     "y": 0.30612244897959184,
                     "uniqueID": 568973,
@@ -473,8 +473,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "horizontal long brace",
-                    "x": 0.33587204874333587,
-                    "y": 0.18950437317784258,
+                    "x": 0.3328255902513328,
+                    "y": 0.19825072886297376,
                     "uniqueID": 742631,
                     "ioValues": [
                         {
@@ -497,10 +497,36 @@
                             "ioValues": []
                         },
                         {
+                            "atomType": "GitHubMolecule",
+                            "name": "Extrude Arc",
+                            "x": 0.2795125666412795,
+                            "y": 0.35568513119533524,
+                            "uniqueID": 882747,
+                            "projectID": "275018479",
+                            "ioValues": [
+                                {
+                                    "name": "thickness",
+                                    "ioValue": 0.4
+                                },
+                                {
+                                    "name": "Piece Width",
+                                    "ioValue": 1
+                                },
+                                {
+                                    "name": "width",
+                                    "ioValue": 300
+                                },
+                                {
+                                    "name": "Arc",
+                                    "ioValue": 8
+                                }
+                            ]
+                        },
+                        {
                             "atomType": "Translate",
                             "name": "Translate",
-                            "x": 0.376999238385377,
-                            "y": 0.23906705539358603,
+                            "x": 0.3846153846153846,
+                            "y": 0.25072886297376096,
                             "uniqueID": 887609,
                             "ioValues": [
                                 {
@@ -518,32 +544,6 @@
                             ]
                         },
                         {
-                            "atomType": "GitHubMolecule",
-                            "name": "Extrude Arc",
-                            "x": 0.2856054836252856,
-                            "y": 0.36734693877551017,
-                            "uniqueID": 882747,
-                            "projectID": "275018479",
-                            "ioValues": [
-                                {
-                                    "name": "thickness",
-                                    "ioValue": 1
-                                },
-                                {
-                                    "name": "Piece Width",
-                                    "ioValue": 1
-                                },
-                                {
-                                    "name": "width",
-                                    "ioValue": 300
-                                },
-                                {
-                                    "name": "Arc",
-                                    "ioValue": 20
-                                }
-                            ]
-                        },
-                        {
                             "atomType": "Circle",
                             "name": "Circle",
                             "x": 0.21096725057121096,
@@ -557,6 +557,23 @@
                             ]
                         },
                         {
+                            "atomType": "Assembly",
+                            "name": "Assembly",
+                            "x": 0.5087585681645088,
+                            "y": 0.5247813411078718,
+                            "uniqueID": 995450,
+                            "ioValues": [
+                                {
+                                    "name": "3D shape 1",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "3D shape 2",
+                                    "ioValue": 10
+                                }
+                            ]
+                        },
+                        {
                             "atomType": "Input",
                             "name": "undercarriage length",
                             "x": 0.013333333333333334,
@@ -565,30 +582,25 @@
                             "ioValues": []
                         },
                         {
-                            "atomType": "ShrinkWrap",
-                            "name": "Shrink Wrap",
-                            "x": 0.5057121096725057,
-                            "y": 0.6472303206997084,
-                            "uniqueID": 794434,
+                            "atomType": "Rotate",
+                            "name": "Rotate",
+                            "x": 0.3518659558263519,
+                            "y": 0.7638483965014577,
+                            "uniqueID": 898469,
                             "ioValues": [
                                 {
-                                    "name": "3D shape 4",
-                                    "ioValue": ""
+                                    "name": "x-axis degrees",
+                                    "ioValue": 0
                                 },
                                 {
-                                    "name": "3D shape 4",
-                                    "ioValue": 10
+                                    "name": "y-axis degrees",
+                                    "ioValue": 0
                                 },
                                 {
-                                    "name": "3D shape 1",
-                                    "ioValue": 10
-                                },
-                                {
-                                    "name": "3D shape 3",
-                                    "ioValue": 10
+                                    "name": "z-axis degrees",
+                                    "ioValue": 4
                                 }
-                            ],
-                            "closedSelection": 0
+                            ]
                         },
                         {
                             "atomType": "Rectangle",
@@ -608,27 +620,6 @@
                             ]
                         },
                         {
-                            "atomType": "Rotate",
-                            "name": "Rotate",
-                            "x": 0.3008377760853008,
-                            "y": 0.8717201166180759,
-                            "uniqueID": 898469,
-                            "ioValues": [
-                                {
-                                    "name": "x-axis degrees",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "y-axis degrees",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "z-axis degrees",
-                                    "ioValue": 45
-                                }
-                            ]
-                        },
-                        {
                             "atomType": "Output",
                             "name": "Output",
                             "x": 0.9847677075399847,
@@ -638,13 +629,6 @@
                     ],
                     "allConnectors": [
                         {
-                            "ap1Name": "geometry",
-                            "ap2Name": "3D shape 1",
-                            "ap2Primary": false,
-                            "ap1ID": 887609,
-                            "ap2ID": 794434
-                        },
-                        {
                             "ap1Name": "Geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
@@ -653,17 +637,24 @@
                         },
                         {
                             "ap1Name": "geometry",
+                            "ap2Name": "3D shape 1",
+                            "ap2Primary": false,
+                            "ap1ID": 887609,
+                            "ap2ID": 995450
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "3D shape 2",
+                            "ap2Primary": false,
+                            "ap1ID": 898469,
+                            "ap2ID": 995450
+                        },
+                        {
+                            "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
                             "ap1ID": 309047,
                             "ap2ID": 898469
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "3D shape 3",
-                            "ap2Primary": false,
-                            "ap1ID": 898469,
-                            "ap2ID": 794434
                         }
                     ],
                     "fileTypeVersion": 1
