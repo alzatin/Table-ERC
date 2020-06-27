@@ -63,6 +63,10 @@
                 {
                     "name": "undercarriage length",
                     "ioValue": 40
+                },
+                {
+                    "name": "Side piece thickness",
+                    "ioValue": 0.75
                 }
             ],
             "topLevel": false,
@@ -70,8 +74,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 0.26123381568926124,
-                    "y": 0.13119533527696794,
+                    "x": 0.2559025133282559,
+                    "y": 0.17201166180758018,
                     "uniqueID": 895365,
                     "ioValues": [
                         {
@@ -80,7 +84,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": 1
+                            "ioValue": 0.75
                         }
                     ],
                     "currentEquation": "x - y"
@@ -513,7 +517,7 @@
                         },
                         {
                             "name": "undercarriage length",
-                            "ioValue": 10
+                            "ioValue": 39.25
                         }
                     ],
                     "topLevel": false,
@@ -556,7 +560,7 @@
                             "ioValues": [
                                 {
                                     "name": "x",
-                                    "ioValue": 10
+                                    "ioValue": 39.25
                                 }
                             ],
                             "currentEquation": "x*6"
@@ -579,7 +583,7 @@
                                 },
                                 {
                                     "name": "width",
-                                    "ioValue": 60
+                                    "ioValue": 235.5
                                 },
                                 {
                                     "name": "Arc",
@@ -676,7 +680,7 @@
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 10
+                                    "ioValue": 39.25
                                 }
                             ]
                         },
@@ -789,10 +793,18 @@
                     "fileTypeVersion": 1
                 },
                 {
+                    "atomType": "Input",
+                    "name": "Side piece thickness",
+                    "x": 0.013333333333333334,
+                    "y": 0.4985422740524781,
+                    "uniqueID": 351235,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.4508758568164509,
-                    "y": 0.22740524781341107,
+                    "x": 0.4539223153084539,
+                    "y": 0.23615160349854228,
                     "uniqueID": 437333,
                     "ioValues": [
                         {
@@ -873,13 +885,13 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.6252856054836253,
-                    "y": 0.23323615160349856,
+                    "x": 0.623000761614623,
+                    "y": 0.21865889212827988,
                     "uniqueID": 731041,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 7
+                            "ioValue": 7.5
                         },
                         {
                             "name": "yDist",
@@ -887,7 +899,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 1
+                            "ioValue": 0.5
                         }
                     ]
                 },
@@ -1051,8 +1063,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.9063214013709062,
-                    "y": 0.5131195335276968,
+                    "x": 0.9017517136329019,
+                    "y": 0.5043731778425656,
                     "uniqueID": 487555,
                     "ioValues": [
                         {
@@ -1142,6 +1154,13 @@
             ],
             "allConnectors": [
                 {
+                    "ap1Name": "result",
+                    "ap2Name": "undercarriage length",
+                    "ap2Primary": false,
+                    "ap1ID": 895365,
+                    "ap2ID": 742631
+                },
+                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -1182,6 +1201,13 @@
                     "ap2Primary": true,
                     "ap1ID": 742631,
                     "ap2ID": 437333
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "y",
+                    "ap2Primary": false,
+                    "ap1ID": 351235,
+                    "ap2ID": 895365
                 },
                 {
                     "ap1Name": "geometry",
