@@ -69,7 +69,7 @@
             "allAtoms": [
                 {
                     "atomType": "Molecule",
-                    "name": "Side anchor pieceÂ ",
+                    "name": "Side anchor pieceÃÂ ",
                     "x": 0.19345011424219347,
                     "y": 0.30612244897959184,
                     "uniqueID": 568973,
@@ -473,8 +473,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "horizontal long brace",
-                    "x": 0.32825590251332826,
-                    "y": 0.19825072886297376,
+                    "x": 0.325971058644326,
+                    "y": 0.20699708454810495,
                     "uniqueID": 742631,
                     "ioValues": [
                         {
@@ -499,8 +499,8 @@
                         {
                             "atomType": "GitHubMolecule",
                             "name": "Extrude Arc",
-                            "x": 0.2597105864432597,
-                            "y": 0.4052478134110787,
+                            "x": 0.21858339680121858,
+                            "y": 0.4081632653061224,
                             "uniqueID": 535640,
                             "projectID": "275018479",
                             "ioValues": [
@@ -529,7 +529,29 @@
                             "y": 0.5,
                             "uniqueID": 780031,
                             "ioValues": [],
-                            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Cube(15).top().to(Cylinder(2, 10).bottom()).frontView();     //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
+                            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Input1.top().to(Cylinder(2, 10).bottom()).frontView();     //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
+                        },
+                        {
+                            "atomType": "ShrinkWrap",
+                            "name": "Shrink Wrap",
+                            "x": 0.32063975628332064,
+                            "y": 0.6559766763848396,
+                            "uniqueID": 794434,
+                            "ioValues": [
+                                {
+                                    "name": "3D shape 2",
+                                    "ioValue": ""
+                                },
+                                {
+                                    "name": "3D shape 1",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "3D shape 2",
+                                    "ioValue": 10
+                                }
+                            ],
+                            "closedSelection": 0
                         },
                         {
                             "atomType": "Input",
@@ -540,6 +562,23 @@
                             "ioValues": []
                         },
                         {
+                            "atomType": "Rectangle",
+                            "name": "Rectangle",
+                            "x": 0.19040365575019041,
+                            "y": 0.7667638483965015,
+                            "uniqueID": 309047,
+                            "ioValues": [
+                                {
+                                    "name": "x length",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "y length",
+                                    "ioValue": 10
+                                }
+                            ]
+                        },
+                        {
                             "atomType": "Output",
                             "name": "Output",
                             "x": 0.9847677075399847,
@@ -547,7 +586,23 @@
                             "ioValues": []
                         }
                     ],
-                    "allConnectors": [],
+                    "allConnectors": [
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "Input1",
+                            "ap2Primary": false,
+                            "ap1ID": 535640,
+                            "ap2ID": 780031
+                        },
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "3D shape 1",
+                            "ap2Primary": false,
+                            "ap1ID": 535640,
+                            "ap2ID": 794434
+                        },
+                        null
+                    ],
                     "fileTypeVersion": 1
                 },
                 {
