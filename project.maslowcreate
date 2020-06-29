@@ -132,7 +132,7 @@
             "allAtoms": [
                 {
                     "atomType": "Molecule",
-                    "name": "Side anchor pieceÃÂÃÂÃÂÃÂ ",
+                    "name": "Side anchor pieceÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ ",
                     "x": 0.130997715156131,
                     "y": 0.17784256559766762,
                     "uniqueID": 568973,
@@ -142,12 +142,12 @@
                             "ioValue": 20
                         },
                         {
-                            "name": "Brace thickness ",
-                            "ioValue": 2
-                        },
-                        {
                             "name": "Brace width",
                             "ioValue": 1.5
+                        },
+                        {
+                            "name": "Brace thicknessÂ ",
+                            "ioValue": 2
                         }
                     ],
                     "topLevel": false,
@@ -342,7 +342,7 @@
                         },
                         {
                             "atomType": "Input",
-                            "name": "Brace thickness ",
+                            "name": "Brace thicknessÂ ",
                             "x": 0.013333333333333334,
                             "y": 0.7201166180758019,
                             "uniqueID": 375484,
