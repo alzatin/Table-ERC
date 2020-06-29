@@ -26,8 +26,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "rounded corner rectangle",
-            "x": 0.12642802741812642,
-            "y": 0.27405247813411077,
+            "x": 0.12327947336923997,
+            "y": 0.26851851851851855,
             "uniqueID": 744415,
             "projectID": "274258140",
             "ioValues": [
@@ -56,8 +56,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.32368621477532367,
-            "y": 0.24198250728862974,
+            "x": 0.3267504488330341,
+            "y": 0.25308641975308643,
             "uniqueID": 707511,
             "ioValues": [
                 {
@@ -107,8 +107,8 @@
         {
             "atomType": "Molecule",
             "name": "Undercarriage",
-            "x": 0.2856054836252856,
-            "y": 0.705539358600583,
+            "x": 0.28605625374027527,
+            "y": 0.6759259259259259,
             "uniqueID": 673023,
             "ioValues": [
                 {
@@ -132,9 +132,9 @@
             "allAtoms": [
                 {
                     "atomType": "Molecule",
-                    "name": "Side anchor pieceÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ ",
-                    "x": 0.130997715156131,
-                    "y": 0.17784256559766762,
+                    "name": "Side anchor piece",
+                    "x": 0.1310592459605027,
+                    "y": 0.16666666666666666,
                     "uniqueID": 568973,
                     "ioValues": [
                         {
@@ -146,7 +146,7 @@
                             "ioValue": 1.5
                         },
                         {
-                            "name": "Brace thicknessÂ ",
+                            "name": "Brace thicknessÃÂ ",
                             "ioValue": 2
                         }
                     ],
@@ -342,7 +342,7 @@
                         },
                         {
                             "atomType": "Input",
-                            "name": "Brace thicknessÂ ",
+                            "name": "Brace thicknessÃÂ ",
                             "x": 0.013333333333333334,
                             "y": 0.7201166180758019,
                             "uniqueID": 375484,
@@ -1875,25 +1875,13 @@
             "fileTypeVersion": 1
         },
         {
-            "atomType": "Translate",
-            "name": "Translate",
-            "x": 0.5133282559025133,
-            "y": 0.5714285714285714,
-            "uniqueID": 221828,
-            "ioValues": [
-                {
-                    "name": "xDist",
-                    "ioValue": 45
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 15
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": -1
-                }
-            ]
+            "atomType": "Readme",
+            "name": "README",
+            "x": 0.6630760023937762,
+            "y": 0.35185185185185186,
+            "uniqueID": 209748,
+            "ioValues": [],
+            "readmeText": "Readme text here"
         },
         {
             "atomType": "Add BOM Tag",
@@ -1910,6 +1898,27 @@
                 "totalNeeded": 1,
                 "radius": 0.015384615384615385
             }
+        },
+        {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.5637342908438061,
+            "y": 0.5802469135802469,
+            "uniqueID": 221828,
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": 45
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 15
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": -1
+                }
+            ]
         },
         {
             "atomType": "Rotate",
@@ -1957,8 +1966,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.760622381807301,
-            "y": 0.6268221574344023,
+            "x": 0.7642130460801915,
+            "y": 0.6172839506172839,
             "uniqueID": 546649,
             "ioValues": [
                 {
