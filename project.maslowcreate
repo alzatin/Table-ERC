@@ -146,7 +146,7 @@
                             "ioValue": 1.5
                         },
                         {
-                            "name": "Brace thicknessÃÂ ",
+                            "name": "Brace thicknessÃÂÃÂ ",
                             "ioValue": 2
                         }
                     ],
@@ -342,7 +342,7 @@
                         },
                         {
                             "atomType": "Input",
-                            "name": "Brace thicknessÃÂ ",
+                            "name": "Brace thicknessÃÂÃÂ ",
                             "x": 0.013333333333333334,
                             "y": 0.7201166180758019,
                             "uniqueID": 375484,
